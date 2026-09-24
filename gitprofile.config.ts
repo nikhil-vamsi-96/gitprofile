@@ -203,7 +203,7 @@ const CONFIG = {
       rel="noreferrer"
     >GitProfile</a> for a Data Analyst portfolio.`,
 
-  enablePWA: true,
+  enablePWA: false,
 };
 
 export default CONFIG;
