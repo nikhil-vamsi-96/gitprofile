@@ -34,6 +34,18 @@ jobs:
       - name: Apply portfolio configuration
         run: cp config/gitprofile.config.ts site/gitprofile.config.ts
 
+      - name: Apply portfolio branding
+        working-directory: site
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('src/components/avatar-card/index.tsx')
+          s = p.read_text()
+          s = s.replace('{profile.name}', 'Nikhil Vamsi')
+          s = s.replace('{profile.bio}', 'Data Analyst | SQL | Python | Power BI | Excel | Business Intelligence')
+          p.write_text(s)
+          PY
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
