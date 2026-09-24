@@ -50,7 +50,7 @@ const CONFIG = {
   },
 
   social: {
-    linkedin: '',
+    linkedin: 'nikhil-vamsi',
     x: '',
     mastodon: '',
     researchGate: '',
@@ -99,7 +99,50 @@ const CONFIG = {
 
   experiences: [],
 
-  certifications: [],
+  certifications: [
+    {
+      name: 'Google IT Automation with Python',
+      body: 'Professional Certificate — Coursera',
+      year: '',
+      link: '',
+    },
+    {
+      name: 'Tata iQ GenAI Data Analytics',
+      body: 'Forage',
+      year: '',
+      link: '',
+    },
+    {
+      name: 'AWS Cloud Virtual Internship',
+      body: 'AICTE-EduSkills',
+      year: '',
+      link: '',
+    },
+    {
+      name: 'Python/Django Internship',
+      body: 'ExcelR EdTech — APSCHE collaboration',
+      year: '',
+      link: '',
+    },
+    {
+      name: 'IBM SQL',
+      body: 'Professional certification',
+      year: '',
+      link: '',
+    },
+    {
+      name: 'JavaScript Essentials',
+      body: 'Cisco',
+      year: '',
+      link: '',
+    },
+    {
+      name: 'IoT',
+      body: 'NPTEL',
+      year: '',
+      link: '',
+    },
+  ],
 
   educations: [
     {
@@ -107,6 +150,12 @@ const CONFIG = {
       degree: 'Master of Computer Applications (MCA)',
       from: '2023',
       to: '2025',
+    },
+    {
+      institution: 'Nalanda Degree College, Vijayawada',
+      degree: 'B.Sc. — Computer Science, Electronics & Mathematics',
+      from: '',
+      to: '',
     },
   ],
 
